@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraitDef>
+    <defName>Andorian</defName>
+    <commonality>0.2</commonality>
+    <degreeDatas>
+      <li>
+        <label>andorian</label>
+        <description>{0} is Andorian, whose race has commonly been associated with military conflict.</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  <TraitDef>
+    <defName>Vulcan</defName>
+    <commonality>0.2</commonality>
+    <degreeDatas>
+      <li>
+        <label>vulcan</label>
+        <description>{0} is Vulcan, whose race has commonly been associated with logic.</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

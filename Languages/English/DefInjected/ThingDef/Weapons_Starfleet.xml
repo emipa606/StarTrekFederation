@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_PhaserHand.label>Phased Blast</Bullet_PhaserHand.label>
+  <Bullet_PhaserRifle.label>Phased blast</Bullet_PhaserRifle.label>
+  <Bullet_PhaserPulse.label>Phased pulse</Bullet_PhaserPulse.label>
+  <Bullet_PulsePlasma.label>Phased pulse</Bullet_PulsePlasma.label>
+
+  <HandPhaser.label>Hand Phaser Type 2</HandPhaser.label>
+  <HandPhaser.description>A type 2 style hand phaser, commonly deployed to personnell on starships or on the ground. Powerful. Phase blasts often result in deep, difficult to treat burns.</HandPhaser.description>
+
+  <Em33pistol.label>EM-33 Plasma Pistol</Em33pistol.label>
+  <Em33pistol.description>An earlier design that is prone to maintenance issues, the EM-33 was designed to project a plasma pulse at short ranges. It is an efficient pistol with a high ammunition capacity with the potential for significant bodily harm.</Em33pistol.description>
+
+  <PhaserRifle.label>Compression Phaser Rifle</PhaserRifle.label>
+  <PhaserRifle.description>A compression phaser rifle, commonly deployed to armed forces on starships or on the ground. Powerful. Phase blasts often result in deep, difficult to treat burns.</PhaserRifle.description>
+
+  <PhaserPulseRifle.label>Phased Pulse Rifle</PhaserPulseRifle.label>
+  <PhaserPulseRifle.description>A phaser rifle that has been adapted to fire concentrated phased plasma pulses, commonly deployed to armed forces on starships or on the ground. Powerful. Phase blasts often result in deep, difficult to treat burns.</PhaserPulseRifle.description>
+
+
+</LanguageData>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchTabDef>
+    <defName>Federation</defName>
+    <label>Starfleet Tech</label>
+  </ResearchTabDef>
+  <ResearchProjectDef>
+    <defName>StarfleetT1</defName>
+    <label>Starfleet Assembler Blueprints</label>
+    <techLevel>Spacer</techLevel>
+    <description>The initial research into pre-replicator technology, allowing for a moderate level of automation when it comes to molecular reassembling. This research is the first step in developing colony grade replicator technology. Grants access to standard uniform designs.</description>
+    <baseCost>450</baseCost>
+    <tab>Federation</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>Electricity</li>
+      <li>Smithing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>StarfleetT2</defName>
+    <label>Starfleet Replicator Technology</label>
+    <techLevel>Spacer</techLevel>
+    <description>Further research into the available assembler blueprints have opened a pathway to basic replicator technology - access to some basic foods and supply. This research grants the blueprint for the standard, energy hungry replicator.</description>
+    <baseCost>775</baseCost>
+    <tab>Federation</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+      <li>StarfleetT1</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>StarfleetT3</defName>
+    <label>Starfleet Phaser Technology</label>
+    <techLevel>Spacer</techLevel>
+    <description>With a functioning replicator, access to the intricate components required for hand and rifle grade phasers mean that engineers only have to do a bit more work to develop designs for our specific replicator to print hand and rifle grade phasers.</description>
+    <baseCost>1000</baseCost>
+    <tab>Federation</tab>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>StarfleetT2</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>StarfleetT3point5</defName>
+    <label>Starfleet Security Technologies</label>
+    <techLevel>Spacer</techLevel>
+    <description>Starfleet requisition templates have been receieved for security technologies. It will take a few days to upload and adapt the code to our replicators to produce the components.</description>
+    <baseCost>1000</baseCost>
+    <tab>Federation</tab>
+    <researchViewX>3</researchViewX>
+    <researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>StarfleetT3</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>StarfleetT4</defName>
+    <label>Starfleet Phased Pulse Technology</label>
+    <techLevel>Spacer</techLevel>
+    <description>While traditional phasers are designed with functionality in mind, advances in phased plasma has pushed for a compressed pulse - allowing for a higher rate of fire and stronger blasts. This technology leads to development of the pulse phaser rifle, a weapon commonly deployed to sustained ground operations and special forces.</description>
+    <baseCost>1200</baseCost>
+    <tab>Federation</tab>
+    <researchViewX>4</researchViewX>
+    <researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>StarfleetT3point5</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>

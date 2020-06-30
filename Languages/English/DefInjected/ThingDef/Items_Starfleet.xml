@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EarlGreyTea.label>Earl Grey Tea - hot.</EarlGreyTea.label>
+  <EarlGreyTea.description>A replicated cup of Earl Grey tea, hot.</EarlGreyTea.description>
+  <EarlGreyTea.ingestible.ingestCommandString>Drink {0}</EarlGreyTea.ingestible.ingestCommandString>
+  <EarlGreyTea.ingestible.ingestReportString>Drinking {0}.</EarlGreyTea.ingestible.ingestReportString>
+
+  <EmergencyRations.label>packaged emergency rations</EmergencyRations.label>
+  <EmergencyRations.description>Expensive to replicate, but nourishing and nutritious. These rations are a blend of multiple dehydrated vegetable bases, wheat, and dehydrated fruits mashed together into an entirely unappetizing meal cake.</EmergencyRations.description>
+
+  <PhasePack.label>charged phase pack</PhasePack.label>
+  <PhasePack.description>Designed to recharge pulse cannon turrets.</PhasePack.description>
+
+
+</LanguageData>

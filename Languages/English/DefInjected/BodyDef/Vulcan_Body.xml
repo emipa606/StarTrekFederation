@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vulcan.label>Vulcan</Vulcan.label>
+  <Vulcan.corePart.parts.0.customLabel>left clavicle</Vulcan.corePart.parts.0.customLabel>
+  <Vulcan.corePart.parts.1.customLabel>right clavicle</Vulcan.corePart.parts.1.customLabel>
+  <Vulcan.corePart.parts.8.customLabel>left lung</Vulcan.corePart.parts.8.customLabel>
+  <Vulcan.corePart.parts.9.customLabel>right lung</Vulcan.corePart.parts.9.customLabel>
+  <Vulcan.corePart.parts.10.customLabel>left kidney</Vulcan.corePart.parts.10.customLabel>
+  <Vulcan.corePart.parts.11.customLabel>right kidney</Vulcan.corePart.parts.11.customLabel>
+  <Vulcan.corePart.parts.13.parts.0.parts.1.customLabel>left eye</Vulcan.corePart.parts.13.parts.0.parts.1.customLabel>
+  <Vulcan.corePart.parts.13.parts.0.parts.2.customLabel>right eye</Vulcan.corePart.parts.13.parts.0.parts.2.customLabel>
+  <Vulcan.corePart.parts.13.parts.0.parts.3.customLabel>left ear</Vulcan.corePart.parts.13.parts.0.parts.3.customLabel>
+  <Vulcan.corePart.parts.13.parts.0.parts.4.customLabel>right ear</Vulcan.corePart.parts.13.parts.0.parts.4.customLabel>
+  <Vulcan.corePart.parts.14.customLabel>left shoulder</Vulcan.corePart.parts.14.customLabel>
+  <Vulcan.corePart.parts.14.parts.0.customLabel>left arm</Vulcan.corePart.parts.14.parts.0.customLabel>
+  <Vulcan.corePart.parts.14.parts.0.parts.0.customLabel>left humerus</Vulcan.corePart.parts.14.parts.0.parts.0.customLabel>
+  <Vulcan.corePart.parts.14.parts.0.parts.1.customLabel>left radius</Vulcan.corePart.parts.14.parts.0.parts.1.customLabel>
+  <Vulcan.corePart.parts.14.parts.0.parts.2.customLabel>left hand</Vulcan.corePart.parts.14.parts.0.parts.2.customLabel>
+  <Vulcan.corePart.parts.14.parts.0.parts.2.parts.0.customLabel>left hand pinky</Vulcan.corePart.parts.14.parts.0.parts.2.parts.0.customLabel>
+  <Vulcan.corePart.parts.14.parts.0.parts.2.parts.1.customLabel>left hand ring finger</Vulcan.corePart.parts.14.parts.0.parts.2.parts.1.customLabel>
+  <Vulcan.corePart.parts.14.parts.0.parts.2.parts.2.customLabel>left hand middle finger</Vulcan.corePart.parts.14.parts.0.parts.2.parts.2.customLabel>
+  <Vulcan.corePart.parts.14.parts.0.parts.2.parts.3.customLabel>left hand index finger</Vulcan.corePart.parts.14.parts.0.parts.2.parts.3.customLabel>
+  <Vulcan.corePart.parts.14.parts.0.parts.2.parts.4.customLabel>left hand thumb</Vulcan.corePart.parts.14.parts.0.parts.2.parts.4.customLabel>
+  <Vulcan.corePart.parts.15.customLabel>right shoulder</Vulcan.corePart.parts.15.customLabel>
+  <Vulcan.corePart.parts.15.parts.0.customLabel>right arm</Vulcan.corePart.parts.15.parts.0.customLabel>
+  <Vulcan.corePart.parts.15.parts.0.parts.0.customLabel>right humerus</Vulcan.corePart.parts.15.parts.0.parts.0.customLabel>
+  <Vulcan.corePart.parts.15.parts.0.parts.1.customLabel>right radius</Vulcan.corePart.parts.15.parts.0.parts.1.customLabel>
+  <Vulcan.corePart.parts.15.parts.0.parts.2.customLabel>right hand</Vulcan.corePart.parts.15.parts.0.parts.2.customLabel>
+  <Vulcan.corePart.parts.15.parts.0.parts.2.parts.0.customLabel>right hand pinky</Vulcan.corePart.parts.15.parts.0.parts.2.parts.0.customLabel>
+  <Vulcan.corePart.parts.15.parts.0.parts.2.parts.1.customLabel>right hand ring finger</Vulcan.corePart.parts.15.parts.0.parts.2.parts.1.customLabel>
+  <Vulcan.corePart.parts.15.parts.0.parts.2.parts.2.customLabel>right hand middle finger</Vulcan.corePart.parts.15.parts.0.parts.2.parts.2.customLabel>
+  <Vulcan.corePart.parts.15.parts.0.parts.2.parts.3.customLabel>right hand index finger</Vulcan.corePart.parts.15.parts.0.parts.2.parts.3.customLabel>
+  <Vulcan.corePart.parts.15.parts.0.parts.2.parts.4.customLabel>right hand thumb</Vulcan.corePart.parts.15.parts.0.parts.2.parts.4.customLabel>
+  <Vulcan.corePart.parts.16.customLabel>left leg</Vulcan.corePart.parts.16.customLabel>
+  <Vulcan.corePart.parts.16.parts.0.customLabel>left femur</Vulcan.corePart.parts.16.parts.0.customLabel>
+  <Vulcan.corePart.parts.16.parts.1.customLabel>left tibia</Vulcan.corePart.parts.16.parts.1.customLabel>
+  <Vulcan.corePart.parts.16.parts.2.customLabel>left foot</Vulcan.corePart.parts.16.parts.2.customLabel>
+  <Vulcan.corePart.parts.16.parts.2.parts.0.customLabel>left foot little toe</Vulcan.corePart.parts.16.parts.2.parts.0.customLabel>
+  <Vulcan.corePart.parts.16.parts.2.parts.1.customLabel>left foot fourth toe</Vulcan.corePart.parts.16.parts.2.parts.1.customLabel>
+  <Vulcan.corePart.parts.16.parts.2.parts.2.customLabel>left foot middle toe</Vulcan.corePart.parts.16.parts.2.parts.2.customLabel>
+  <Vulcan.corePart.parts.16.parts.2.parts.3.customLabel>left foot second toe</Vulcan.corePart.parts.16.parts.2.parts.3.customLabel>
+  <Vulcan.corePart.parts.16.parts.2.parts.4.customLabel>left foot big toe</Vulcan.corePart.parts.16.parts.2.parts.4.customLabel>
+  <Vulcan.corePart.parts.17.customLabel>right leg</Vulcan.corePart.parts.17.customLabel>
+  <Vulcan.corePart.parts.17.parts.0.customLabel>right femur</Vulcan.corePart.parts.17.parts.0.customLabel>
+  <Vulcan.corePart.parts.17.parts.1.customLabel>right tibia</Vulcan.corePart.parts.17.parts.1.customLabel>
+  <Vulcan.corePart.parts.17.parts.2.customLabel>right foot</Vulcan.corePart.parts.17.parts.2.customLabel>
+  <Vulcan.corePart.parts.17.parts.2.parts.0.customLabel>right foot little toe</Vulcan.corePart.parts.17.parts.2.parts.0.customLabel>
+  <Vulcan.corePart.parts.17.parts.2.parts.1.customLabel>right foot fourth toe</Vulcan.corePart.parts.17.parts.2.parts.1.customLabel>
+  <Vulcan.corePart.parts.17.parts.2.parts.2.customLabel>right foot middle toe</Vulcan.corePart.parts.17.parts.2.parts.2.customLabel>
+  <Vulcan.corePart.parts.17.parts.2.parts.3.customLabel>right foot second toe</Vulcan.corePart.parts.17.parts.2.parts.3.customLabel>
+  <Vulcan.corePart.parts.17.parts.2.parts.4.customLabel>right foot big toe</Vulcan.corePart.parts.17.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

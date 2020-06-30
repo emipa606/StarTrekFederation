@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Andorian.label>Andorian</Andorian.label>
+  <Andorian.corePart.parts.0.customLabel>left clavicle</Andorian.corePart.parts.0.customLabel>
+  <Andorian.corePart.parts.1.customLabel>right clavicle</Andorian.corePart.parts.1.customLabel>
+  <Andorian.corePart.parts.8.customLabel>left lung</Andorian.corePart.parts.8.customLabel>
+  <Andorian.corePart.parts.9.customLabel>right lung</Andorian.corePart.parts.9.customLabel>
+  <Andorian.corePart.parts.10.customLabel>left kidney</Andorian.corePart.parts.10.customLabel>
+  <Andorian.corePart.parts.11.customLabel>right kidney</Andorian.corePart.parts.11.customLabel>
+  <Andorian.corePart.parts.13.parts.0.parts.1.customLabel>left eye</Andorian.corePart.parts.13.parts.0.parts.1.customLabel>
+  <Andorian.corePart.parts.13.parts.0.parts.2.customLabel>right eye</Andorian.corePart.parts.13.parts.0.parts.2.customLabel>
+  <Andorian.corePart.parts.13.parts.0.parts.3.customLabel>left ear</Andorian.corePart.parts.13.parts.0.parts.3.customLabel>
+  <Andorian.corePart.parts.13.parts.0.parts.4.customLabel>right ear</Andorian.corePart.parts.13.parts.0.parts.4.customLabel>
+  <Andorian.corePart.parts.13.parts.0.parts.5.customLabel>left antenna</Andorian.corePart.parts.13.parts.0.parts.5.customLabel>
+  <Andorian.corePart.parts.13.parts.0.parts.6.customLabel>right antenna</Andorian.corePart.parts.13.parts.0.parts.6.customLabel>
+  <Andorian.corePart.parts.14.customLabel>left shoulder</Andorian.corePart.parts.14.customLabel>
+  <Andorian.corePart.parts.14.parts.0.customLabel>left arm</Andorian.corePart.parts.14.parts.0.customLabel>
+  <Andorian.corePart.parts.14.parts.0.parts.0.customLabel>left humerus</Andorian.corePart.parts.14.parts.0.parts.0.customLabel>
+  <Andorian.corePart.parts.14.parts.0.parts.1.customLabel>left radius</Andorian.corePart.parts.14.parts.0.parts.1.customLabel>
+  <Andorian.corePart.parts.14.parts.0.parts.2.customLabel>left hand</Andorian.corePart.parts.14.parts.0.parts.2.customLabel>
+  <Andorian.corePart.parts.14.parts.0.parts.2.parts.0.customLabel>left hand pinky</Andorian.corePart.parts.14.parts.0.parts.2.parts.0.customLabel>
+  <Andorian.corePart.parts.14.parts.0.parts.2.parts.1.customLabel>left hand ring finger</Andorian.corePart.parts.14.parts.0.parts.2.parts.1.customLabel>
+  <Andorian.corePart.parts.14.parts.0.parts.2.parts.2.customLabel>left hand middle finger</Andorian.corePart.parts.14.parts.0.parts.2.parts.2.customLabel>
+  <Andorian.corePart.parts.14.parts.0.parts.2.parts.3.customLabel>left hand index finger</Andorian.corePart.parts.14.parts.0.parts.2.parts.3.customLabel>
+  <Andorian.corePart.parts.14.parts.0.parts.2.parts.4.customLabel>left hand thumb</Andorian.corePart.parts.14.parts.0.parts.2.parts.4.customLabel>
+  <Andorian.corePart.parts.15.customLabel>right shoulder</Andorian.corePart.parts.15.customLabel>
+  <Andorian.corePart.parts.15.parts.0.customLabel>right arm</Andorian.corePart.parts.15.parts.0.customLabel>
+  <Andorian.corePart.parts.15.parts.0.parts.0.customLabel>right humerus</Andorian.corePart.parts.15.parts.0.parts.0.customLabel>
+  <Andorian.corePart.parts.15.parts.0.parts.1.customLabel>right radius</Andorian.corePart.parts.15.parts.0.parts.1.customLabel>
+  <Andorian.corePart.parts.15.parts.0.parts.2.customLabel>right hand</Andorian.corePart.parts.15.parts.0.parts.2.customLabel>
+  <Andorian.corePart.parts.15.parts.0.parts.2.parts.0.customLabel>right hand pinky</Andorian.corePart.parts.15.parts.0.parts.2.parts.0.customLabel>
+  <Andorian.corePart.parts.15.parts.0.parts.2.parts.1.customLabel>right hand ring finger</Andorian.corePart.parts.15.parts.0.parts.2.parts.1.customLabel>
+  <Andorian.corePart.parts.15.parts.0.parts.2.parts.2.customLabel>right hand middle finger</Andorian.corePart.parts.15.parts.0.parts.2.parts.2.customLabel>
+  <Andorian.corePart.parts.15.parts.0.parts.2.parts.3.customLabel>right hand index finger</Andorian.corePart.parts.15.parts.0.parts.2.parts.3.customLabel>
+  <Andorian.corePart.parts.15.parts.0.parts.2.parts.4.customLabel>right hand thumb</Andorian.corePart.parts.15.parts.0.parts.2.parts.4.customLabel>
+  <Andorian.corePart.parts.16.customLabel>left leg</Andorian.corePart.parts.16.customLabel>
+  <Andorian.corePart.parts.16.parts.0.customLabel>left femur</Andorian.corePart.parts.16.parts.0.customLabel>
+  <Andorian.corePart.parts.16.parts.1.customLabel>left tibia</Andorian.corePart.parts.16.parts.1.customLabel>
+  <Andorian.corePart.parts.16.parts.2.customLabel>left foot</Andorian.corePart.parts.16.parts.2.customLabel>
+  <Andorian.corePart.parts.16.parts.2.parts.0.customLabel>left foot little toe</Andorian.corePart.parts.16.parts.2.parts.0.customLabel>
+  <Andorian.corePart.parts.16.parts.2.parts.1.customLabel>left foot fourth toe</Andorian.corePart.parts.16.parts.2.parts.1.customLabel>
+  <Andorian.corePart.parts.16.parts.2.parts.2.customLabel>left foot middle toe</Andorian.corePart.parts.16.parts.2.parts.2.customLabel>
+  <Andorian.corePart.parts.16.parts.2.parts.3.customLabel>left foot second toe</Andorian.corePart.parts.16.parts.2.parts.3.customLabel>
+  <Andorian.corePart.parts.16.parts.2.parts.4.customLabel>left foot big toe</Andorian.corePart.parts.16.parts.2.parts.4.customLabel>
+  <Andorian.corePart.parts.17.customLabel>right leg</Andorian.corePart.parts.17.customLabel>
+  <Andorian.corePart.parts.17.parts.0.customLabel>right femur</Andorian.corePart.parts.17.parts.0.customLabel>
+  <Andorian.corePart.parts.17.parts.1.customLabel>right tibia</Andorian.corePart.parts.17.parts.1.customLabel>
+  <Andorian.corePart.parts.17.parts.2.customLabel>right foot</Andorian.corePart.parts.17.parts.2.customLabel>
+  <Andorian.corePart.parts.17.parts.2.parts.0.customLabel>right foot little toe</Andorian.corePart.parts.17.parts.2.parts.0.customLabel>
+  <Andorian.corePart.parts.17.parts.2.parts.1.customLabel>right foot fourth toe</Andorian.corePart.parts.17.parts.2.parts.1.customLabel>
+  <Andorian.corePart.parts.17.parts.2.parts.2.customLabel>right foot middle toe</Andorian.corePart.parts.17.parts.2.parts.2.customLabel>
+  <Andorian.corePart.parts.17.parts.2.parts.3.customLabel>right foot second toe</Andorian.corePart.parts.17.parts.2.parts.3.customLabel>
+  <Andorian.corePart.parts.17.parts.2.parts.4.customLabel>right foot big toe</Andorian.corePart.parts.17.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

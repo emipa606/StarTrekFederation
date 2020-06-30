@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoBillsReplicator</defName>
+    <label>replicating</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>110</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Replicator</li>
+    </fixedBillGiverDefs>
+    <verb>craft</verb>
+    <gerund>replicating</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+</Defs>

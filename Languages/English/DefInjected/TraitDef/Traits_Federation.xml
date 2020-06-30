@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Andorian.degreeDatas.0.label>andorian</Andorian.degreeDatas.0.label>
+  <Andorian.degreeDatas.0.description>{0} is Andorian, whose race has commonly been associated with military conflict.</Andorian.degreeDatas.0.description>
+
+  <Vulcan.degreeDatas.0.label>vulcan</Vulcan.degreeDatas.0.label>
+  <Vulcan.degreeDatas.0.description>{0} is Vulcan, whose race has commonly been associated with logic.</Vulcan.degreeDatas.0.description>
+
+
+</LanguageData>
