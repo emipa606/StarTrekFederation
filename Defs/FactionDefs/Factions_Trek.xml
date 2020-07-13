@@ -50,14 +50,26 @@
       <li>
         <kindDef>Combat</kindDef>
         <options>
+          <StarfleetCommand>5</StarfleetCommand>
           <StarfleetTactical>50</StarfleetTactical>
-          <StarfleetOperations>50</StarfleetOperations>
-          <StarfleetScience>10</StarfleetScience>
           <StarfleetTacticalAndorian>30</StarfleetTacticalAndorian>
           <StarfleetOperations>50</StarfleetOperations>
           <StarfleetOperationsVulcan>10</StarfleetOperationsVulcan>
+          <StarfleetOperationsAndorian>10</StarfleetOperationsAndorian>
           <StarfleetScience>10</StarfleetScience>
           <StarfleetScienceVulcan>10</StarfleetScienceVulcan>
+          <StarfleetScienceAndorian>10</StarfleetScienceAndorian>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <StarfleetTactical>50</StarfleetTactical>
+          <StarfleetTacticalAndorian>30</StarfleetTacticalAndorian>
+          <StarfleetOperations>50</StarfleetOperations>
+          <StarfleetScience>10</StarfleetScience>
+          <StarfleetScienceVulcan>10</StarfleetScienceVulcan>
+          <StarfleetScienceAndorian>10</StarfleetScienceAndorian>
         </options>
       </li>
       <li>
@@ -75,19 +87,22 @@
           <StarfleetOperations>50</StarfleetOperations>
           <StarfleetScience>20</StarfleetScience>
           <StarfleetScienceVulcan>20</StarfleetScienceVulcan>
+          <StarfleetScienceAndorian>10</StarfleetScienceAndorian>
           <StarfleetCommand>1</StarfleetCommand>
         </guards>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
+          <StarfleetCommand>5</StarfleetCommand>
           <StarfleetTactical>30</StarfleetTactical>
-          <StarfleetTacticalAndorian>30</StarfleetTacticalAndorian>
+          <StarfleetTacticalAndorian>20</StarfleetTacticalAndorian>
           <StarfleetOperations>50</StarfleetOperations>
-          <StarfleetOperationsAndorian>30</StarfleetOperationsAndorian>
-          <StarfleetScience>70</StarfleetScience>
-          <StarfleetScienceVulcan>30</StarfleetScienceVulcan>
-          <StarfleetCommand>1</StarfleetCommand>
+          <StarfleetOperationsVulcan>15</StarfleetOperationsVulcan>
+          <StarfleetOperationsAndorian>15</StarfleetOperationsAndorian>
+          <StarfleetScience>5</StarfleetScience>
+          <StarfleetScienceVulcan>5</StarfleetScienceVulcan>
+          <StarfleetScienceAndorian>5</StarfleetScienceAndorian>
         </options>
       </li>
     </pawnGroupMakers>
