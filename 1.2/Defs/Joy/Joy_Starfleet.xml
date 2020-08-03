@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JoyGiverDef>
+    <defName>Play3dChess</defName>
+    <giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+    <baseChance>2.3</baseChance>
+    <thingDefs>
+      <li>Federation3dChess</li>
+    </thingDefs>
+    <jobDef>JoyPlay3dChess</jobDef>
+    <desireSit>false</desireSit>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  <JobDef>
+    <defName>JoyPlay3dChess</defName>
+    <driverClass>JobDriver_SitFacingBuilding</driverClass>
+    <reportString>playing 3 dimensional chess.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>2</joyMaxParticipants>
+    <joyGainRate>2</joyGainRate>
+    <joySkill>Intellectual</joySkill>
+    <joyXpPerTick>0.003</joyXpPerTick>
+    <joyKind>Gaming_Dexterity</joyKind>
+  </JobDef>
+</Defs>

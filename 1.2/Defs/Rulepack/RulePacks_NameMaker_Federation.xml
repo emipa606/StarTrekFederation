@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerFactionFederation</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[StarfleetFactions] [StarfleetNumbers]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>StarfleetFactions</keyword>
+          <path>NameBanks/StarfleetFactions</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>StarfleetNumbers</keyword>
+          <path>NameBanks/StarfleetNumbers</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>NamerSettlementFederation</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[StarfleetBases] [StarfleetNumbers]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>StarfleetNumbers</keyword>
+          <path>NameBanks/StarfleetNumbers</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>StarfleetBases</keyword>
+          <path>NameBanks/StarfleetBases</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>NamerPersonFederation</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[personnamemale] [StarfleetLastNames]</li>
+        <li>name-&gt;[personnamefemale] [StarfleetLastNames]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_NamePerson">
+          <gender>Male</gender>
+          <keyword>personnamemale</keyword>
+        </li>
+        <li Class="Rule_NamePerson">
+          <gender>Female</gender>
+          <keyword>personnamefemale</keyword>
+        </li>
+        <li Class="Rule_File">
+          <keyword>StarfleetRanks</keyword>
+          <path>NameBanks/StarfleetRanks</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>StarfleetRanksCmd</keyword>
+          <path>NameBanks/StarfleetRanksCmd</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>StarfleetLastNames</keyword>
+          <path>NameBanks/StarfleetLastNames</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>
