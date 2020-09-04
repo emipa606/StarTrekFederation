@@ -1,21 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Andorian Base -->
-
-  <Federation_Andorian_Race.label>andorian</Federation_Andorian_Race.label>
-  <Federation_Andorian_Race.description>Andorians were one of the founding members to join the United Federation of Planets. They have a history and tendency that was centered more on military conflict.</Federation_Andorian_Race.description>
-  <Federation_Andorian_Race.tools.0.label>left fist</Federation_Andorian_Race.tools.0.label>
-  <Federation_Andorian_Race.tools.1.label>right fist</Federation_Andorian_Race.tools.1.label>
-  <Federation_Andorian_Race.tools.2.label>teeth</Federation_Andorian_Race.tools.2.label>
-  <Federation_Andorian_Race.tools.3.label>head</Federation_Andorian_Race.tools.3.label>
-
-  <Federation_Vulcan_Race.label>vulcan</Federation_Vulcan_Race.label>
-  <Federation_Vulcan_Race.description>Vulcans were the first race encountered by humans and are one of the most critical alliances made by humans. Vulcans are famously stoic and logical, making exceptional diplomats and scientists.</Federation_Vulcan_Race.description>
-  <Federation_Vulcan_Race.tools.0.label>left fist</Federation_Vulcan_Race.tools.0.label>
-  <Federation_Vulcan_Race.tools.1.label>right fist</Federation_Vulcan_Race.tools.1.label>
-  <Federation_Vulcan_Race.tools.2.label>teeth</Federation_Vulcan_Race.tools.2.label>
-  <Federation_Vulcan_Race.tools.3.label>head</Federation_Vulcan_Race.tools.3.label>
-
+  <!--<Federation_Andorian_Race.label>andorian</Federation_Andorian_Race.label>-->
+  <!--<Federation_Andorian_Race.description>Andorians were one of the founding members to join the United Federation of Planets. They have a history and tendency that was centered more on military conflict.</Federation_Andorian_Race.description>-->
+  <!--<Federation_Andorian_Race.tools.0.label>left fist</Federation_Andorian_Race.tools.0.label>-->
+  <!--<Federation_Andorian_Race.tools.1.label>right fist</Federation_Andorian_Race.tools.1.label>-->
+  <!--<Federation_Andorian_Race.tools.2.label>teeth</Federation_Andorian_Race.tools.2.label>-->
+  <!--<Federation_Andorian_Race.tools.3.label>head</Federation_Andorian_Race.tools.3.label>-->
+  <!--<Federation_Vulcan_Race.label>vulcan</Federation_Vulcan_Race.label>-->
+  <!--<Federation_Vulcan_Race.description>Vulcans were the first race encountered by humans and are one of the most critical alliances made by humans. Vulcans are famously stoic and logical, making exceptional diplomats and scientists.</Federation_Vulcan_Race.description>-->
+  <!--<Federation_Vulcan_Race.tools.0.label>left fist</Federation_Vulcan_Race.tools.0.label>-->
+  <!--<Federation_Vulcan_Race.tools.1.label>right fist</Federation_Vulcan_Race.tools.1.label>-->
+  <!--<Federation_Vulcan_Race.tools.2.label>teeth</Federation_Vulcan_Race.tools.2.label>-->
+  <!--<Federation_Vulcan_Race.tools.3.label>head</Federation_Vulcan_Race.tools.3.label>-->
 
 </LanguageData>

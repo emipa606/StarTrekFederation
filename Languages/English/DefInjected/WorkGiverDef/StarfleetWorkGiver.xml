@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <DoBillsReplicator.label>replicating</DoBillsReplicator.label>
-  <DoBillsReplicator.verb>craft</DoBillsReplicator.verb>
-  <DoBillsReplicator.gerund>replicating</DoBillsReplicator.gerund>
-
+  <!--<DoBillsReplicator.label>replicating</DoBillsReplicator.label>-->
+  <!--<DoBillsReplicator.verb>craft</DoBillsReplicator.verb>-->
+  <!--<DoBillsReplicator.gerund>replicating</DoBillsReplicator.gerund>-->
 
 </LanguageData>

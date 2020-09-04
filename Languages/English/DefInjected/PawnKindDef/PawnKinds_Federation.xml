@@ -1,52 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <StarfleetTactical.label>starfleet tactical</StarfleetTactical.label>
-  <StarfleetTactical.labelPlural>starfleet tacticals</StarfleetTactical.labelPlural>
-
-  <StarfleetTacticalAndorian.label>starfleet tactical</StarfleetTacticalAndorian.label>
-  <StarfleetTacticalAndorian.labelPlural>starfleet tacticals</StarfleetTacticalAndorian.labelPlural>
-  <StarfleetTacticalAndorian.labelMale>male starfleet tactical</StarfleetTacticalAndorian.labelMale>
-  <StarfleetTacticalAndorian.labelMalePlural>male starfleet tacticals</StarfleetTacticalAndorian.labelMalePlural>
-  <StarfleetTacticalAndorian.labelFemale>female starfleet tactical</StarfleetTacticalAndorian.labelFemale>
-  <StarfleetTacticalAndorian.labelFemalePlural>female starfleet tacticals</StarfleetTacticalAndorian.labelFemalePlural>
-
-  <StarfleetOperations.label>starfleet operations</StarfleetOperations.label>
-  <StarfleetOperations.labelPlural>starfleet operationss</StarfleetOperations.labelPlural>
-
-  <StarfleetOperationsVulcan.label>starfleet operations</StarfleetOperationsVulcan.label>
-  <StarfleetOperationsVulcan.labelPlural>starfleet operationss</StarfleetOperationsVulcan.labelPlural>
-  <StarfleetOperationsVulcan.labelMale>male starfleet operations</StarfleetOperationsVulcan.labelMale>
-  <StarfleetOperationsVulcan.labelMalePlural>male starfleet operationss</StarfleetOperationsVulcan.labelMalePlural>
-  <StarfleetOperationsVulcan.labelFemale>female starfleet operations</StarfleetOperationsVulcan.labelFemale>
-  <StarfleetOperationsVulcan.labelFemalePlural>female starfleet operationss</StarfleetOperationsVulcan.labelFemalePlural>
-
-  <StarfleetOperationsAndorian.label>starfleet operations</StarfleetOperationsAndorian.label>
-  <StarfleetOperationsAndorian.labelPlural>starfleet operationss</StarfleetOperationsAndorian.labelPlural>
-  <StarfleetOperationsAndorian.labelMale>male starfleet operations</StarfleetOperationsAndorian.labelMale>
-  <StarfleetOperationsAndorian.labelMalePlural>male starfleet operationss</StarfleetOperationsAndorian.labelMalePlural>
-  <StarfleetOperationsAndorian.labelFemale>female starfleet operations</StarfleetOperationsAndorian.labelFemale>
-  <StarfleetOperationsAndorian.labelFemalePlural>female starfleet operationss</StarfleetOperationsAndorian.labelFemalePlural>
-
-  <StarfleetScience.label>starfleet science</StarfleetScience.label>
-  <StarfleetScience.labelPlural>starfleet sciences</StarfleetScience.labelPlural>
-
-  <StarfleetScienceVulcan.label>starfleet science</StarfleetScienceVulcan.label>
-  <StarfleetScienceVulcan.labelPlural>starfleet sciences</StarfleetScienceVulcan.labelPlural>
-  <StarfleetScienceVulcan.labelMale>male starfleet science</StarfleetScienceVulcan.labelMale>
-  <StarfleetScienceVulcan.labelMalePlural>male starfleet sciences</StarfleetScienceVulcan.labelMalePlural>
-  <StarfleetScienceVulcan.labelFemale>female starfleet science</StarfleetScienceVulcan.labelFemale>
-  <StarfleetScienceVulcan.labelFemalePlural>female starfleet sciences</StarfleetScienceVulcan.labelFemalePlural>
-
-  <StarfleetScienceAndorian.label>starfleet science</StarfleetScienceAndorian.label>
-  <StarfleetScienceAndorian.labelPlural>starfleet sciences</StarfleetScienceAndorian.labelPlural>
-  <StarfleetScienceAndorian.labelMale>male starfleet science</StarfleetScienceAndorian.labelMale>
-  <StarfleetScienceAndorian.labelMalePlural>male starfleet sciences</StarfleetScienceAndorian.labelMalePlural>
-  <StarfleetScienceAndorian.labelFemale>female starfleet science</StarfleetScienceAndorian.labelFemale>
-  <StarfleetScienceAndorian.labelFemalePlural>female starfleet sciences</StarfleetScienceAndorian.labelFemalePlural>
-
-  <StarfleetCommand.label>starfleet officer</StarfleetCommand.label>
-  <StarfleetCommand.labelPlural>starfleet officers</StarfleetCommand.labelPlural>
-
+  <!--<StarfleetTactical.label>starfleet tactical</StarfleetTactical.label>-->
+  <!--<StarfleetTactical.labelPlural>starfleet tacticals</StarfleetTactical.labelPlural>-->
+  <!--<StarfleetTacticalAndorian.label>starfleet tactical</StarfleetTacticalAndorian.label>-->
+  <!--<StarfleetTacticalAndorian.labelPlural>starfleet tacticals</StarfleetTacticalAndorian.labelPlural>-->
+  <!--<StarfleetTacticalAndorian.labelMale>male starfleet tactical</StarfleetTacticalAndorian.labelMale>-->
+  <!--<StarfleetTacticalAndorian.labelMalePlural>male starfleet tacticals</StarfleetTacticalAndorian.labelMalePlural>-->
+  <!--<StarfleetTacticalAndorian.labelFemale>female starfleet tactical</StarfleetTacticalAndorian.labelFemale>-->
+  <!--<StarfleetTacticalAndorian.labelFemalePlural>female starfleet tacticals</StarfleetTacticalAndorian.labelFemalePlural>-->
+  <!--<StarfleetOperations.label>starfleet operations</StarfleetOperations.label>-->
+  <!--<StarfleetOperations.labelPlural>starfleet operationss</StarfleetOperations.labelPlural>-->
+  <!--<StarfleetOperationsVulcan.label>starfleet operations</StarfleetOperationsVulcan.label>-->
+  <!--<StarfleetOperationsVulcan.labelPlural>starfleet operationss</StarfleetOperationsVulcan.labelPlural>-->
+  <!--<StarfleetOperationsVulcan.labelMale>male starfleet operations</StarfleetOperationsVulcan.labelMale>-->
+  <!--<StarfleetOperationsVulcan.labelMalePlural>male starfleet operationss</StarfleetOperationsVulcan.labelMalePlural>-->
+  <!--<StarfleetOperationsVulcan.labelFemale>female starfleet operations</StarfleetOperationsVulcan.labelFemale>-->
+  <!--<StarfleetOperationsVulcan.labelFemalePlural>female starfleet operationss</StarfleetOperationsVulcan.labelFemalePlural>-->
+  <!--<StarfleetOperationsAndorian.label>starfleet operations</StarfleetOperationsAndorian.label>-->
+  <!--<StarfleetOperationsAndorian.labelPlural>starfleet operationss</StarfleetOperationsAndorian.labelPlural>-->
+  <!--<StarfleetOperationsAndorian.labelMale>male starfleet operations</StarfleetOperationsAndorian.labelMale>-->
+  <!--<StarfleetOperationsAndorian.labelMalePlural>male starfleet operationss</StarfleetOperationsAndorian.labelMalePlural>-->
+  <!--<StarfleetOperationsAndorian.labelFemale>female starfleet operations</StarfleetOperationsAndorian.labelFemale>-->
+  <!--<StarfleetOperationsAndorian.labelFemalePlural>female starfleet operationss</StarfleetOperationsAndorian.labelFemalePlural>-->
+  <!--<StarfleetScience.label>starfleet science</StarfleetScience.label>-->
+  <!--<StarfleetScience.labelPlural>starfleet sciences</StarfleetScience.labelPlural>-->
+  <!--<StarfleetScienceVulcan.label>starfleet science</StarfleetScienceVulcan.label>-->
+  <!--<StarfleetScienceVulcan.labelPlural>starfleet sciences</StarfleetScienceVulcan.labelPlural>-->
+  <!--<StarfleetScienceVulcan.labelMale>male starfleet science</StarfleetScienceVulcan.labelMale>-->
+  <!--<StarfleetScienceVulcan.labelMalePlural>male starfleet sciences</StarfleetScienceVulcan.labelMalePlural>-->
+  <!--<StarfleetScienceVulcan.labelFemale>female starfleet science</StarfleetScienceVulcan.labelFemale>-->
+  <!--<StarfleetScienceVulcan.labelFemalePlural>female starfleet sciences</StarfleetScienceVulcan.labelFemalePlural>-->
+  <!--<StarfleetScienceAndorian.label>starfleet science</StarfleetScienceAndorian.label>-->
+  <!--<StarfleetScienceAndorian.labelPlural>starfleet sciences</StarfleetScienceAndorian.labelPlural>-->
+  <!--<StarfleetScienceAndorian.labelMale>male starfleet science</StarfleetScienceAndorian.labelMale>-->
+  <!--<StarfleetScienceAndorian.labelMalePlural>male starfleet sciences</StarfleetScienceAndorian.labelMalePlural>-->
+  <!--<StarfleetScienceAndorian.labelFemale>female starfleet science</StarfleetScienceAndorian.labelFemale>-->
+  <!--<StarfleetScienceAndorian.labelFemalePlural>female starfleet sciences</StarfleetScienceAndorian.labelFemalePlural>-->
+  <!--<StarfleetCommand.label>starfleet officer</StarfleetCommand.label>-->
+  <!--<StarfleetCommand.labelPlural>starfleet officers</StarfleetCommand.labelPlural>-->
 
 </LanguageData>

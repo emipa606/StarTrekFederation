@@ -1,17 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <ReplicateTea.label>tea, earl grey, hot.</ReplicateTea.label>
-  <ReplicateTea.description>drink some tea.</ReplicateTea.description>
-  <ReplicateTea.jobString>Humming a tune.</ReplicateTea.jobString>
-
-  <ReplicateRations.label>Emergency food rations</ReplicateRations.label>
-  <ReplicateRations.description>replicate ration pack</ReplicateRations.description>
-  <ReplicateRations.jobString>Humming a tune.</ReplicateRations.jobString>
-
-  <MakePhasePack.label>charge empty phase pack</MakePhasePack.label>
-  <MakePhasePack.description>Recharge an empty phase pack.</MakePhasePack.description>
-  <MakePhasePack.jobString>Charging Phase Pack.</MakePhasePack.jobString>
-
+  <!--<ReplicateTea.label>tea, earl grey, hot.</ReplicateTea.label>-->
+  <!--<ReplicateTea.description>drink some tea.</ReplicateTea.description>-->
+  <!--<ReplicateTea.jobString>Humming a tune.</ReplicateTea.jobString>-->
+  <!--<ReplicateRations.label>Emergency food rations</ReplicateRations.label>-->
+  <!--<ReplicateRations.description>replicate ration pack</ReplicateRations.description>-->
+  <!--<ReplicateRations.jobString>Humming a tune.</ReplicateRations.jobString>-->
+  <!--<MakePhasePack.label>charge empty phase pack</MakePhasePack.label>-->
+  <!--<MakePhasePack.description>Recharge an empty phase pack.</MakePhasePack.description>-->
+  <!--<MakePhasePack.jobString>Charging Phase Pack.</MakePhasePack.jobString>-->
 
 </LanguageData>

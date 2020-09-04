@@ -1,31 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Andorian Base -->
-
-  <BackstoryAndorianCadet.title>Andorian cadet</BackstoryAndorianCadet.title>
-  <BackstoryAndorianCadet.baseDescription>{0} was cadet at one of the many Andorian military academies prior to joining Starfleet. This has instilled a deep sense of pride and military methodology.</BackstoryAndorianCadet.baseDescription>
-
-  <BackstoryAndorianFarmer.title>Andorian farmer</BackstoryAndorianFarmer.title>
-  <BackstoryAndorianFarmer.baseDescription>{0} was raised on a farm. [PAWN_possessive] parents taught and raised [PAWN_objective] to have a nurturing relationship with the soil, and as a result, {0} is familiar with growing and harvesting.</BackstoryAndorianFarmer.baseDescription>
-
-  <BackstoryAndorianOrphan.title>Andorian orphan</BackstoryAndorianOrphan.title>
-  <BackstoryAndorianOrphan.baseDescription>{0} was an orphan. It was essential to gain certain skills to both survive and thrive in one of many Andorian cities.</BackstoryAndorianOrphan.baseDescription>
-
-  <BackstoryAndorianMiner.title>Andorian miner</BackstoryAndorianMiner.title>
-  <BackstoryAndorianMiner.baseDescription>{0} was raised on a mining colony. Early on their life, {0} began to labour in the mines.</BackstoryAndorianMiner.baseDescription>
-
-  <BackstoryVulcanScientist.title>Vulcan scientist</BackstoryVulcanScientist.title>
-  <BackstoryVulcanScientist.baseDescription>{0} was raised and schooled in an advanced vulcan science academy. With such a background, {0} has developed a strong aptitude for advanced scientific theory.</BackstoryVulcanScientist.baseDescription>
-
-  <BackstoryVulcanEngineer.title>Vulcan engineer</BackstoryVulcanEngineer.title>
-  <BackstoryVulcanEngineer.baseDescription>{0} was raised and schooled in an advanced vulcan engineering academy. With such a background, {0} has developed a strong aptitude for advanced manufacturing and construction theory.</BackstoryVulcanEngineer.baseDescription>
-
-  <BackstoryVulcanDoctor.title>Vulcan engineer</BackstoryVulcanDoctor.title>
-  <BackstoryVulcanDoctor.baseDescription>{0} was raised and schooled in an advanced vulcan medical academy. With such a background, {0} has developed a strong aptitude for vulcan science and medical technologies.</BackstoryVulcanDoctor.baseDescription>
-
-  <BackstoryVulcanCadet.title>Vulcan cadet</BackstoryVulcanCadet.title>
-  <BackstoryVulcanCadet.baseDescription>{0} enrolled and graduated from Starfleet academy. The rigors of the program have produced an effective, well rounded individual that can perform a number of different duties.</BackstoryVulcanCadet.baseDescription>
-
+  <!--<BackstoryAndorianCadet.title>Andorian cadet</BackstoryAndorianCadet.title>-->
+  <!--<BackstoryAndorianCadet.baseDescription>{0} was cadet at one of the many Andorian military academies prior to joining Starfleet. This has instilled a deep sense of pride and military methodology.</BackstoryAndorianCadet.baseDescription>-->
+  <!--<BackstoryAndorianFarmer.title>Andorian farmer</BackstoryAndorianFarmer.title>-->
+  <!--<BackstoryAndorianFarmer.baseDescription>{0} was raised on a farm. [PAWN_possessive] parents taught and raised [PAWN_objective] to have a nurturing relationship with the soil, and as a result, {0} is familiar with growing and harvesting.</BackstoryAndorianFarmer.baseDescription>-->
+  <!--<BackstoryAndorianOrphan.title>Andorian orphan</BackstoryAndorianOrphan.title>-->
+  <!--<BackstoryAndorianOrphan.baseDescription>{0} was an orphan. It was essential to gain certain skills to both survive and thrive in one of many Andorian cities.</BackstoryAndorianOrphan.baseDescription>-->
+  <!--<BackstoryAndorianMiner.title>Andorian miner</BackstoryAndorianMiner.title>-->
+  <!--<BackstoryAndorianMiner.baseDescription>{0} was raised on a mining colony. Early on their life, {0} began to labour in the mines.</BackstoryAndorianMiner.baseDescription>-->
+  <!--<BackstoryVulcanScientist.title>Vulcan scientist</BackstoryVulcanScientist.title>-->
+  <!--<BackstoryVulcanScientist.baseDescription>{0} was raised and schooled in an advanced vulcan science academy. With such a background, {0} has developed a strong aptitude for advanced scientific theory.</BackstoryVulcanScientist.baseDescription>-->
+  <!--<BackstoryVulcanEngineer.title>Vulcan engineer</BackstoryVulcanEngineer.title>-->
+  <!--<BackstoryVulcanEngineer.baseDescription>{0} was raised and schooled in an advanced vulcan engineering academy. With such a background, {0} has developed a strong aptitude for advanced manufacturing and construction theory.</BackstoryVulcanEngineer.baseDescription>-->
+  <!--<BackstoryVulcanDoctor.title>Vulcan engineer</BackstoryVulcanDoctor.title>-->
+  <!--<BackstoryVulcanDoctor.baseDescription>{0} was raised and schooled in an advanced vulcan medical academy. With such a background, {0} has developed a strong aptitude for vulcan science and medical technologies.</BackstoryVulcanDoctor.baseDescription>-->
+  <!--<BackstoryVulcanCadet.title>Vulcan cadet</BackstoryVulcanCadet.title>-->
+  <!--<BackstoryVulcanCadet.baseDescription>{0} enrolled and graduated from Starfleet academy. The rigors of the program have produced an effective, well rounded individual that can perform a number of different duties.</BackstoryVulcanCadet.baseDescription>-->
 
 </LanguageData>

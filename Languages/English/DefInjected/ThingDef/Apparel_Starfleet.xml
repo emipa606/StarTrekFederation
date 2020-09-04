@@ -1,25 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Starfleet -->
-
-  <Apparel_StarfleetTactical.label>Starfleet Tactical Uniform</Apparel_StarfleetTactical.label>
-  <Apparel_StarfleetTactical.description>Standard uniform for enlisted and officer corps of Starfleet tactical divisions. These uniforms are rated for planetary excursions, and have been weaved with ablative layers to bear the burden of light energy and kinetic weapons.</Apparel_StarfleetTactical.description>
-
-  <Apparel_StarfleetTacticalFieldJacket.label>Starfleet Field Jacket - Command</Apparel_StarfleetTacticalFieldJacket.label>
-  <Apparel_StarfleetTacticalFieldJacket.description>Standard field jacket assigned to away teams for cold environments Synthetic fur lines the inside, providing significant warmth to the wearer. These uniforms are rated for planetary excursions, and have been weaved with ablative layers to bear the burden of light energy and kinetic weapons.</Apparel_StarfleetTacticalFieldJacket.description>
-
-  <Apparel_StarfleetScience.label>Starfleet Science Uniform</Apparel_StarfleetScience.label>
-  <Apparel_StarfleetScience.description>Standard uniform for enlisted and officer corps of Starfleet science divisions. These uniforms are rated for planetary excursions, and have been weaved with ablative layers to bear the burden of light energy and kinetic weapons.</Apparel_StarfleetScience.description>
-
-  <Apparel_StarfleetScienceFieldJacket.label>Starfleet Field Jacket - Science</Apparel_StarfleetScienceFieldJacket.label>
-  <Apparel_StarfleetScienceFieldJacket.description>Standard field jacket assigned to away teams for cold environments Synthetic fur lines the inside, providing significant warmth to the wearer. These uniforms are rated for planetary excursions, and have been weaved with ablative layers to bear the burden of light energy and kinetic weapons.</Apparel_StarfleetScienceFieldJacket.description>
-
-  <Apparel_StarfleetOperations.label>Starfleet Operations Uniform</Apparel_StarfleetOperations.label>
-  <Apparel_StarfleetOperations.description>Standard uniform for enlisted and officer corps of Starfleet operations divisions. These uniforms are rated for planetary excursions, and have been weaved with ablative layers to bear the burden of light energy and kinetic weapons.</Apparel_StarfleetOperations.description>
-
-  <Apparel_StarfleetOperationsFieldJacket.label>Starfleet Field Jacket - Operations</Apparel_StarfleetOperationsFieldJacket.label>
-  <Apparel_StarfleetOperationsFieldJacket.description>Standard field jacket assigned to away teams for cold environments Synthetic fur lines the inside, providing significant warmth to the wearer. These uniforms are rated for planetary excursions, and have been weaved with ablative layers to bear the burden of light energy and kinetic weapons.</Apparel_StarfleetOperationsFieldJacket.description>
-
+  <!--<Apparel_StarfleetTactical.label>Starfleet Tactical Uniform</Apparel_StarfleetTactical.label>-->
+  <!--<Apparel_StarfleetTactical.description>Standard uniform for enlisted and officer corps of Starfleet tactical divisions. These uniforms are rated for planetary excursions, and have been weaved with ablative layers to bear the burden of light energy and kinetic weapons.</Apparel_StarfleetTactical.description>-->
+  <!--<Apparel_StarfleetTacticalFieldJacket.label>Starfleet Field Jacket - Command</Apparel_StarfleetTacticalFieldJacket.label>-->
+  <!--<Apparel_StarfleetTacticalFieldJacket.description>Standard field jacket assigned to away teams for cold environments Synthetic fur lines the inside, providing significant warmth to the wearer. These uniforms are rated for planetary excursions, and have been weaved with ablative layers to bear the burden of light energy and kinetic weapons.</Apparel_StarfleetTacticalFieldJacket.description>-->
+  <!--<Apparel_StarfleetScience.label>Starfleet Science Uniform</Apparel_StarfleetScience.label>-->
+  <!--<Apparel_StarfleetScience.description>Standard uniform for enlisted and officer corps of Starfleet science divisions. These uniforms are rated for planetary excursions, and have been weaved with ablative layers to bear the burden of light energy and kinetic weapons.</Apparel_StarfleetScience.description>-->
+  <!--<Apparel_StarfleetScienceFieldJacket.label>Starfleet Field Jacket - Science</Apparel_StarfleetScienceFieldJacket.label>-->
+  <!--<Apparel_StarfleetScienceFieldJacket.description>Standard field jacket assigned to away teams for cold environments Synthetic fur lines the inside, providing significant warmth to the wearer. These uniforms are rated for planetary excursions, and have been weaved with ablative layers to bear the burden of light energy and kinetic weapons.</Apparel_StarfleetScienceFieldJacket.description>-->
+  <!--<Apparel_StarfleetOperations.label>Starfleet Operations Uniform</Apparel_StarfleetOperations.label>-->
+  <!--<Apparel_StarfleetOperations.description>Standard uniform for enlisted and officer corps of Starfleet operations divisions. These uniforms are rated for planetary excursions, and have been weaved with ablative layers to bear the burden of light energy and kinetic weapons.</Apparel_StarfleetOperations.description>-->
+  <!--<Apparel_StarfleetOperationsFieldJacket.label>Starfleet Field Jacket - Operations</Apparel_StarfleetOperationsFieldJacket.label>-->
+  <!--<Apparel_StarfleetOperationsFieldJacket.description>Standard field jacket assigned to away teams for cold environments Synthetic fur lines the inside, providing significant warmth to the wearer. These uniforms are rated for planetary excursions, and have been weaved with ablative layers to bear the burden of light energy and kinetic weapons.</Apparel_StarfleetOperationsFieldJacket.description>-->
 
 </LanguageData>

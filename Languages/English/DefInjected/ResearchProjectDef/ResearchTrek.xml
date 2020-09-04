@@ -1,20 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <StarfleetT1.label>Starfleet Assembler Blueprints</StarfleetT1.label>
-  <StarfleetT1.description>The initial research into pre-replicator technology, allowing for a moderate level of automation when it comes to molecular reassembling. This research is the first step in developing colony grade replicator technology. Grants access to standard uniform designs.</StarfleetT1.description>
-
-  <StarfleetT2.label>Starfleet Replicator Technology</StarfleetT2.label>
-  <StarfleetT2.description>Further research into the available assembler blueprints have opened a pathway to basic replicator technology - access to some basic foods and supply. This research grants the blueprint for the standard, energy hungry replicator.</StarfleetT2.description>
-
-  <StarfleetT3.label>Starfleet Phaser Technology</StarfleetT3.label>
-  <StarfleetT3.description>With a functioning replicator, access to the intricate components required for hand and rifle grade phasers mean that engineers only have to do a bit more work to develop designs for our specific replicator to print hand and rifle grade phasers.</StarfleetT3.description>
-
-  <StarfleetT3point5.label>Starfleet Security Technologies</StarfleetT3point5.label>
-  <StarfleetT3point5.description>Starfleet requisition templates have been receieved for security technologies. It will take a few days to upload and adapt the code to our replicators to produce the components.</StarfleetT3point5.description>
-
-  <StarfleetT4.label>Starfleet Phased Pulse Technology</StarfleetT4.label>
-  <StarfleetT4.description>While traditional phasers are designed with functionality in mind, advances in phased plasma has pushed for a compressed pulse - allowing for a higher rate of fire and stronger blasts. This technology leads to development of the pulse phaser rifle, a weapon commonly deployed to sustained ground operations and special forces.</StarfleetT4.description>
-
+  <!--<StarfleetT1.label>Starfleet Assembler Blueprints</StarfleetT1.label>-->
+  <!--<StarfleetT1.description>The initial research into pre-replicator technology, allowing for a moderate level of automation when it comes to molecular reassembling. This research is the first step in developing colony grade replicator technology. Grants access to standard uniform designs.</StarfleetT1.description>-->
+  <!--<StarfleetT2.label>Starfleet Replicator Technology</StarfleetT2.label>-->
+  <!--<StarfleetT2.description>Further research into the available assembler blueprints have opened a pathway to basic replicator technology - access to some basic foods and supply. This research grants the blueprint for the standard, energy hungry replicator.</StarfleetT2.description>-->
+  <!--<StarfleetT3.label>Starfleet Phaser Technology</StarfleetT3.label>-->
+  <!--<StarfleetT3.description>With a functioning replicator, access to the intricate components required for hand and rifle grade phasers mean that engineers only have to do a bit more work to develop designs for our specific replicator to print hand and rifle grade phasers.</StarfleetT3.description>-->
+  <!--<StarfleetT3point5.label>Starfleet Security Technologies</StarfleetT3point5.label>-->
+  <!--<StarfleetT3point5.description>Starfleet requisition templates have been receieved for security technologies. It will take a few days to upload and adapt the code to our replicators to produce the components.</StarfleetT3point5.description>-->
+  <!--<StarfleetT4.label>Starfleet Phased Pulse Technology</StarfleetT4.label>-->
+  <!--<StarfleetT4.description>While traditional phasers are designed with functionality in mind, advances in phased plasma has pushed for a compressed pulse - allowing for a higher rate of fire and stronger blasts. This technology leads to development of the pulse phaser rifle, a weapon commonly deployed to sustained ground operations and special forces.</StarfleetT4.description>-->
 
 </LanguageData>

@@ -1,16 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <TrapPhaseMine.label>Starfleet phase mine</TrapPhaseMine.label>
-  <TrapPhaseMine.description>A federation standard phase mine, designed to protect outposts from dangerous wildlife or enemy factions.</TrapPhaseMine.description>
-
-  <Bullet_Phase.label>phase pulse</Bullet_Phase.label>
-
-  <PhaseCannon_MannedTurret.label>Phase Cannon Turret</PhaseCannon_MannedTurret.label>
-  <PhaseCannon_MannedTurret.description>Starfleet phase cannon. This is a scaled down version of the ship based phase pulse cannon. It can be manned, and fires a concentrated pulse of phased energy, resulting in a large explosion.</PhaseCannon_MannedTurret.description>
-
-  <Turret_PhaseCannon.label>Phase Cannon Turret</Turret_PhaseCannon.label>
-  <Turret_PhaseCannon.description>Starfleet phase cannon. This is a scaled down version of the ship based phase pulse cannon. It can be manned, and fires a concentrated pulse of phased energy, resulting in a large explosion.</Turret_PhaseCannon.description>
-
+  <!--<TrapPhaseMine.label>Starfleet phase mine</TrapPhaseMine.label>-->
+  <!--<TrapPhaseMine.description>A federation standard phase mine, designed to protect outposts from dangerous wildlife or enemy factions.</TrapPhaseMine.description>-->
+  <!--<Bullet_Phase.label>phase pulse</Bullet_Phase.label>-->
+  <!--<PhaseCannon_MannedTurret.label>Phase Cannon Turret</PhaseCannon_MannedTurret.label>-->
+  <!--<PhaseCannon_MannedTurret.description>Starfleet phase cannon. This is a scaled down version of the ship based phase pulse cannon. It can be manned, and fires a concentrated pulse of phased energy, resulting in a large explosion.</PhaseCannon_MannedTurret.description>-->
+  <!--<Turret_PhaseCannon.label>Phase Cannon Turret</Turret_PhaseCannon.label>-->
+  <!--<Turret_PhaseCannon.description>Starfleet phase cannon. This is a scaled down version of the ship based phase pulse cannon. It can be manned, and fires a concentrated pulse of phased energy, resulting in a large explosion.</Turret_PhaseCannon.description>-->
 
 </LanguageData>

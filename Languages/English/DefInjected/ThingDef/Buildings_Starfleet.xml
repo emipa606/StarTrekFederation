@@ -1,17 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Replicator.label>Starfleet colony grade replicator</Replicator.label>
-  <Replicator.description>A colony grade replicator, not as immediate as some of the more advanced ship-based replication systems. Requires a strong source of power and the necessary resources to replicate specific items.</Replicator.description>
-
-  <Federation3dChess.label>3 dimensional chess</Federation3dChess.label>
-  <Federation3dChess.description>A table set up with the complicated, but fascinating game of 3d chess.</Federation3dChess.description>
-
-  <FederationLight.label>federation light</FederationLight.label>
-  <FederationLight.description>A federation grade light, providing a small degree of radiated heat and light to an area.</FederationLight.description>
-
-  <FederationBattery.label>starfleet grade battery</FederationBattery.label>
-  <FederationBattery.description>Starfleet grade energy storage device. Stores electricity when there is excess power and yields it when there is not. Warning - charged batteries tend to explode when exposed to rain or fire.</FederationBattery.description>
-
+  <!--<Replicator.label>Starfleet colony grade replicator</Replicator.label>-->
+  <!--<Replicator.description>A colony grade replicator, not as immediate as some of the more advanced ship-based replication systems. Requires a strong source of power and the necessary resources to replicate specific items.</Replicator.description>-->
+  <!--<Federation3dChess.label>3 dimensional chess</Federation3dChess.label>-->
+  <!--<Federation3dChess.description>A table set up with the complicated, but fascinating game of 3d chess.</Federation3dChess.description>-->
+  <!--<FederationLight.label>federation light</FederationLight.label>-->
+  <!--<FederationLight.description>A federation grade light, providing a small degree of radiated heat and light to an area.</FederationLight.description>-->
+  <!--<FederationBattery.label>starfleet grade battery</FederationBattery.label>-->
+  <!--<FederationBattery.description>Starfleet grade energy storage device. Stores electricity when there is excess power and yields it when there is not. Warning - charged batteries tend to explode when exposed to rain or fire.</FederationBattery.description>-->
 
 </LanguageData>
