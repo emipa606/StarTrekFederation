@@ -14,7 +14,7 @@
       </recipeUsers>
     </recipeMaker>
   </ThingDef>
-  <ThingDef Name="ArmorHelmetMakeableBase" ParentName="ArmorMakeableBaseStarfleet" Abstract="True">
+  <ThingDef Name="ArmorHelmetMakeableBaseStarfleet" ParentName="ArmorMakeableBaseStarfleet" Abstract="True">
     <thingCategories>
       <li>Headgear</li>
     </thingCategories>

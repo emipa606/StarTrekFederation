@@ -18,43 +18,72 @@
   </modDependencies>
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
+    <li>syrchalis.traitvalue</li>
   </loadAfter>
-  <description>Update of orannjs mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of orannjs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=941839892
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
+- Removed the Borg Faction from the mod since I already updated that: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2042715537]Borg Race (Continued)[/url]
+- Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2451324814][SYR] Trait Value[/url]
 
-Support-chat:
-https://invite.gg/mlie
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Non-steam version:
-https://github.com/emipa606/StarTrekFederation
-
-- Removed the Borg Faction from the mod since I already updated that:
-  Borg Race (Continued) https://steamcommunity.com/sharedfiles/filedetails/?id=2042715537
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/StarTrekFederation][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
 Sorry guys, can't update anytime soon.
 
-Hello and welcome to Star Trek: Federation.
+[h1]Hello and welcome to Star Trek: Federation.[/h1]
 
 This mod essentially covers technologies from the late 24th centuries. I have included DS9 style uniforms, cold weather field jackets, and phasers covering a number of different periods. The plans and goals for this mod are to include more research fields, more buildings for federation flair, expanded races to include other federation races, and more technology to bring the star trek feel to the game. Please let me know if you think of anything you might want to see. :)
 
+[b]See the borg race mod for information on any current issues that you might see in game. Essentially, assimilation currently, beyond humanoids, affects animals if you target them to be assimilated. This will be fixed soon. :P [/b]
 
-To be done
+
+
+[[HINT]] - If you're getting raided by the borg, prioritize those with the nanite probes. Otherwise, enjoy watching your population succumb to assimilation. ;D
+
+[b]To be done[/b]
 
 --Expanded uniform base for federation characters (Late 24th century)
+[strike]--More research opportunities and buildings / furniture associated with that research.[/strike]
+[strike]--Expanded federation races (Andorian, Vulcan, [/strike]Klingon.)
+[strike]--Fix assimilation to only affect humans.[/strike]
 --Add federation backstories and traits.
-
-Interested in my other mods?
--Borg Race/Faction 
--Dune - Fremen Faction
--WWII Red Army - Soviet Faction
--WWII Wehrmacht - German Faction
--Napoleonic Age - France/Britain/Prussia
+--Continue to tweak and add borg backstories, traits, etc.
+--More variation on borg head and body types.
+--[b]IMPORTANT[/b] [u]many many prosthetics.[/u]
 
 
-Let me know if you think of anything you'd like to see. You can also join the borg discussion on discord at the Humanoid Alien Races 2.0 discord channel
+[b]Interested in my other mods?[/]
+-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=946260992]Borg Race/Faction - if you only want the Borg, select this mod. Do not run both star trek and borg mod. :)[/url]
+-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=827966051]Dune - Fremen Faction[/url]
+-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=808149207]WWII Red Army - Soviet Faction[/url]
+-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=793443438]WWII Wehrmacht - German Faction[/url]
+-[url=http://steamcommunity.com/sharedfiles/filedetails/?id=790242814]Napoleonic Age - France/Britain/Prussia[/url]
 
-Thanks to Thirite and Erdelf for all their help. :)</description>
+
+[b]Let me know if you think of anything you'd like to see. You can also join the borg discussion on discord at the  [url=http://discord.gg/XMCRj46]Humanoid Alien Races 2.0 discord channel[/url][/b]
+
+[b]Thanks to Thirite and Erdelf for all their help. :)[/b]
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+
