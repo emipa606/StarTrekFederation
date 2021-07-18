@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="BaseStarfleetGun" ParentName="BaseHumanMakeableGun" Abstract="True">
+    <statBases>
+      <SellPriceFactor>0.5</SellPriceFactor>
+    </statBases>
+    <weaponTags>
+      <li>StarfleetT1</li>
+      <li>StarfleetT2</li>
+    </weaponTags>
+    <recipeMaker>
+      <recipeUsers>
+        <li>Replicator</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_PhaserHand</defName>
+    <label>Phased Blast</label>
+    <graphicData>
+      <texPath>Things/Federation/Projectiles/PhaserBeam</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_PhaserRifle</defName>
+    <label>Phased blast</label>
+    <graphicData>
+      <texPath>Things/Federation/Projectiles/PhaseCannonBlast</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>35</damageAmountBase>
+      <speed>85</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_PhaserPulse</defName>
+    <label>Phased pulse</label>
+    <graphicData>
+      <texPath>Things/Federation/Projectiles/PhaseCannonBlast</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>22</damageAmountBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_PulsePlasma</defName>
+    <label>Phased pulse</label>
+    <graphicData>
+      <texPath>Things/Federation/Projectiles/Plasma</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>23</damageAmountBase>
+      <speed>85</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseStarfleetGun">
+    <defName>HandPhaser</defName>
+    <label>Hand Phaser Type 2</label>
+    <description>A type 2 style hand phaser, commonly deployed to personnell on starships or on the ground. Powerful. Phase blasts often result in deep, difficult to treat burns.</description>
+    <graphicData>
+      <texPath>Things/Federation/Weapons/Phaser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>1.4</Mass>
+      <MarketValue>500</MarketValue>
+      <AccuracyTouch>0.35</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>StarfleetT1</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>StarfleetT3</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_PhaserHand</defaultProjectile>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <warmupTime>1.0</warmupTime>
+        <range>23</range>
+        <soundCast>Phaser_blast1</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseStarfleetGun">
+    <defName>Em33pistol</defName>
+    <label>EM-33 Plasma Pistol</label>
+    <description>An earlier design that is prone to maintenance issues, the EM-33 was designed to project a plasma pulse at short ranges. It is an efficient pistol with a high ammunition capacity with the potential for significant bodily harm.</description>
+    <graphicData>
+      <texPath>Things/Federation/Weapons/Em33</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <statBases>
+      <WorkToMake>21000</WorkToMake>
+      <Mass>1.1</Mass>
+      <MarketValue>500</MarketValue>
+      <AccuracyTouch>0.35</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>56</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>StarfleetT1</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>StarfleetT1</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_PulsePlasma</defaultProjectile>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <warmupTime>0.5</warmupTime>
+        <range>21</range>
+        <soundCast>Phaser_blast4</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseStarfleetGun">
+    <defName>PhaserRifle</defName>
+    <label>Compression Phaser Rifle</label>
+    <description>A compression phaser rifle, commonly deployed to armed forces on starships or on the ground. Powerful. Phase blasts often result in deep, difficult to treat burns.</description>
+    <graphicData>
+      <texPath>Things/Federation/Weapons/PhaserRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>32000</WorkToMake>
+      <Mass>4.4</Mass>
+      <MarketValue>500</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.88</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>80</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>StarfleetT3</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>StarfleetT2</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_PhaserRifle</defaultProjectile>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <warmupTime>1</warmupTime>
+        <range>40</range>
+        <soundCast>Phaser_blast2</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseStarfleetGun">
+    <defName>PhaserPulseRifle</defName>
+    <label>Phased Pulse Rifle</label>
+    <description>A phaser rifle that has been adapted to fire concentrated phased plasma pulses, commonly deployed to armed forces on starships or on the ground. Powerful. Phase blasts often result in deep, difficult to treat burns.</description>
+    <graphicData>
+      <texPath>Things/Federation/Weapons/PhaserPulseRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <Mass>4.1</Mass>
+      <MarketValue>750</MarketValue>
+      <AccuracyTouch>0.35</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.85</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>95</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>StarfleetT4</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>StarfleetT3</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_PhaserPulse</defaultProjectile>
+        <burstShotCount>8</burstShotCount>
+        <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+        <warmupTime>4</warmupTime>
+        <range>37</range>
+        <soundCast>Phaser_blast3</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+</Defs>
