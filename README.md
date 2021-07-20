@@ -24,7 +24,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=941839892
 ![Image](https://i.imgur.com/NOW7jU1.png)
 
 
-Sorry guys, can&apos;t update anytime soon.
+Sorry guys, can&amp;apos;t update anytime soon.
 
 # Hello and welcome to Star Trek: Federation.
 
@@ -35,7 +35,7 @@ This mod essentially covers technologies from the late 24th centuries. I have in
 
 
 
-[[HINT]] - If you&apos;re getting raided by the borg, prioritize those with the nanite probes. Otherwise, enjoy watching your population succumb to assimilation. ;D
+[[HINT]] - If you&amp;apos;re getting raided by the borg, prioritize those with the nanite probes. Otherwise, enjoy watching your population succumb to assimilation. ;D
 
 **To be done**
 
@@ -57,7 +57,7 @@ This mod essentially covers technologies from the late 24th centuries. I have in
 -http://steamcommunity.com/sharedfiles/filedetails/?id=790242814]Napoleonic Age - France/Britain/Prussia
 
 
-**Let me know if you think of anything you&apos;d like to see. You can also join the borg discussion on discord at the  http://discord.gg/XMCRj46]Humanoid Alien Races 2.0 discord channel**
+**Let me know if you think of anything you&amp;apos;d like to see. You can also join the borg discussion on discord at the  http://discord.gg/XMCRj46]Humanoid Alien Races 2.0 discord channel**
 
 **Thanks to Thirite and Erdelf for all their help. :)**
 
@@ -72,6 +72,7 @@ This mod essentially covers technologies from the late 24th centuries. I have in
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

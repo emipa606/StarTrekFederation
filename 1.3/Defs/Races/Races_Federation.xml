@@ -54,10 +54,14 @@
           <head>Andorian/Head/</head>
         </li>
       </graphicPaths>
-      <hairSettings>
-        <hasHair>true</hasHair>
-        <getsGreyAt>1</getsGreyAt>
-      </hairSettings>
+      <styleSettings>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
       <thoughtSettings>
       </thoughtSettings>
       <raceRestriction>
@@ -275,10 +279,14 @@
           <head>Vulcan/Head/</head>
         </li>
       </graphicPaths>
-      <hairSettings>
-        <hasHair>true</hasHair>
-        <getsGreyAt>41</getsGreyAt>
-      </hairSettings>
+      <styleSettings>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
       <thoughtSettings>
       </thoughtSettings>
       <raceRestriction>
