@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Star Trek: Federation (Continued)</name>
   <packageId>Mlie.StarTrekFederation</packageId>
@@ -21,7 +21,7 @@
     <li>erdelf.HumanoidAlienRaces</li>
     <li>syrchalis.traitvalue</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of orannjs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=941839892
 
@@ -29,18 +29,22 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=941839892
 - Should not spawn as permanent enemy towards Empire
 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2451324814][SYR] Trait Value[/url]
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/StarTrekFederation][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/6KqTKks.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
-Sorry guys, can&apos;t update anytime soon.
+Sorry guys, can&amp;apos;t update anytime soon.
 
 [h1]Hello and welcome to Star Trek: Federation.[/h1]
 
@@ -50,7 +54,7 @@ This mod essentially covers technologies from the late 24th centuries. I have in
 
 
 
-[[HINT]] - If you&apos;re getting raided by the borg, prioritize those with the nanite probes. Otherwise, enjoy watching your population succumb to assimilation. ;D
+[[HINT]] - If you&amp;apos;re getting raided by the borg, prioritize those with the nanite probes. Otherwise, enjoy watching your population succumb to assimilation. ;D
 
 [b]To be done[/b]
 
@@ -72,12 +76,12 @@ This mod essentially covers technologies from the late 24th centuries. I have in
 -[url=http://steamcommunity.com/sharedfiles/filedetails/?id=790242814]Napoleonic Age - France/Britain/Prussia[/url]
 
 
-[b]Let me know if you think of anything you&apos;d like to see. You can also join the borg discussion on discord at the  [url=http://discord.gg/XMCRj46]Humanoid Alien Races 2.0 discord channel[/url][/b]
+[b]Let me know if you think of anything you&amp;apos;d like to see. You can also join the borg discussion on discord at the  [url=http://discord.gg/XMCRj46]Humanoid Alien Races 2.0 discord channel[/url][/b]
 
 [b]Thanks to Thirite and Erdelf for all their help. :)[/b]
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -86,6 +90,5 @@ This mod essentially covers technologies from the late 24th centuries. I have in
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
 </description>
 </ModMetaData>
