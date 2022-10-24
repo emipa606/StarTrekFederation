@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>EarlGreyTea</defName>
+    <label>Earl Grey Tea - hot.</label>
+    <description>A replicated cup of Earl Grey tea, hot.</description>
+    <graphicData>
+      <texPath>Things/Federation/Items/tea</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.05</DeteriorationRate>
+      <MarketValue>25</MarketValue>
+      <Mass>0.2</Mass>
+      <Nutrition>0.02</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>Processed, Fluid</foodType>
+      <joy>0.17</joy>
+      <joyKind>Gluttonous</joyKind>
+      <ingestSound>Ingest_Beer</ingestSound>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <chairSearchRadius>25</chairSearchRadius>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>StarfleetT1</researchPrerequisite>
+      <recipeUsers>
+        <li>Replicator</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Silver>1</Silver>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="MealBase">
+    <defName>EmergencyRations</defName>
+    <label>packaged emergency rations</label>
+    <description>Expensive to replicate, but nourishing and nutritious. These rations are a blend of multiple dehydrated vegetable bases, wheat, and dehydrated fruits mashed together into an entirely unappetizing meal cake.</description>
+    <graphicData>
+      <texPath>Things/Federation/Items/rations</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <MarketValue>25</MarketValue>
+      <Mass>0.1</Mass>
+      <WorkToMake>400</WorkToMake>
+      <Nutrition>0.95</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>PhasePack</defName>
+    <label>charged phase pack</label>
+    <description>Designed to recharge pulse cannon turrets.</description>
+    <graphicData>
+      <texPath>Things/Federation/Items/PhasePack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <tickerType>Normal</tickerType>
+    <stackLimit>100</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>50</MarketValue>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+      <Mass>1</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <wickTicks>
+          <min>10</min>
+          <max>30</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+</Defs>

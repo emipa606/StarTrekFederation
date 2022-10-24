@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ============================ Andorian Base ========================== -->
+  <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+    <defName>Federation_Andorian_Race</defName>
+    <label>andorian</label>
+    <description>Andorians were one of the founding members to join the United Federation of Planets. They have a history and tendency that was centered more on military conflict.</description>
+    <alienRace>
+      <generalSettings>
+        <maleGenderProbability>0.5</maleGenderProbability>
+        <immuneToAge>false</immuneToAge>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>Andorian</defName>
+            <chance>100</chance>
+          </li>
+        </forcedRaceTraitEntries>
+        <alienPartGenerator>
+          <colorChannels>
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0,0,0,1)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.35,0.65,1,1)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+          </colorChannels>
+          <headTypes>
+            <li>Male_AverageNormal</li>
+            <li>Female_AverageNormal</li>
+          </headTypes>
+          <bodyTypes>
+            <li>Thin</li>
+            <li>Hulk</li>
+            <li>Fat</li>
+            <li>Male</li>
+            <li>Female</li>
+          </bodyTypes>
+        </alienPartGenerator>
+        <chemicalSettings>
+        </chemicalSettings>
+      </generalSettings>
+      <graphicPaths>
+        <head>Andorian/Head/</head>
+      </graphicPaths>
+      <styleSettings>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+      <thoughtSettings>
+      </thoughtSettings>
+      <raceRestriction>
+        <traitList>
+          <li>Andorian</li>
+        </traitList>
+      </raceRestriction>
+      <relationSettings>
+      </relationSettings>
+    </alienRace>
+    <statBases>
+      <MoveSpeed>4.82</MoveSpeed>
+      <Flammability>1.0</Flammability>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
+      <LeatherAmount>25</LeatherAmount>
+    </statBases>
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
+        <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+        <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>180</lifeExpectancy>
+      <leatherDef>Leather_Human</leatherDef>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Andorian</body>
+      <meatColor>RGBA(0.65,0.62,0.67,1)</meatColor>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>1.2</minAge>
+        </li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">
+          <def>HumanlikePreTeenager</def>
+          <minAge>4</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
+        </li>
+      </lifeStageAges>
+      <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+        <Firefighter>7</Firefighter>
+        <Patient>0</Patient>
+        <Doctor>10</Doctor>
+        <PatientBedRest>0</PatientBedRest>
+        <Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+        <BasicWorker>7</BasicWorker>
+        <Warden>10</Warden>
+        <Handling>7</Handling>
+        <Cooking>7</Cooking>
+        <Hunting>7</Hunting>
+        <Construction>10</Construction>
+        <Growing>7</Growing>
+        <Mining>7</Mining>
+        <PlantCutting>7</PlantCutting>
+        <Smithing>13</Smithing>
+        <Tailoring>7</Tailoring>
+        <Art>10</Art>
+        <Crafting>7</Crafting>
+        <Hauling>3</Hauling>
+        <Cleaning>3</Cleaning>
+        <Research>13</Research>
+      </lifeStageWorkSettings>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>
+          <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li>
+          <!-- End exclude -->
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+          <li>(14,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+          <li>(16,100)</li>
+          <li>(50,100)</li>
+          <li>(70,30)</li>
+          <li>(90,18)</li>
+          <li>(80,10)</li>
+          <li>(120,3)</li>
+          <li>(170,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+      </hediffGiverSets>
+    </race>
+    <recipes>
+      <li>InstallPowerClaw</li>
+      <li>InstallBionicEye</li>
+      <li>InstallBionicArm</li>
+      <li>InstallBionicLeg</li>
+      <li>InstallSimpleProstheticArm</li>
+      <li>InstallSimpleProstheticLeg</li>
+      <li>InstallPegLeg</li>
+      <li>InstallDenture</li>
+      <li>InstallJoywire</li>
+      <li>InstallPainstopper</li>
+      <li>InstallNaturalHeart</li>
+      <li>InstallNaturalLung</li>
+      <li>InstallNaturalKidney</li>
+      <li>InstallNaturalLiver</li>
+      <li>ExciseCarcinoma</li>
+      <li>RemoveBodyPart</li>
+      <li>Euthanize</li>
+    </recipes>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+    <defName>Federation_Vulcan_Race</defName>
+    <label>vulcan</label>
+    <description>Vulcans were the first race encountered by humans and are one of the most critical alliances made by humans. Vulcans are famously stoic and logical, making exceptional diplomats and scientists.</description>
+    <alienRace>
+      <generalSettings>
+        <maleGenderProbability>0.5</maleGenderProbability>
+        <immuneToAge>false</immuneToAge>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>Vulcan</defName>
+            <chance>100</chance>
+          </li>
+        </forcedRaceTraitEntries>
+        <alienPartGenerator>
+          <colorChannels>
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(1,1,1,1)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(1,1,0.81,1)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+          </colorChannels>
+          <headTypes>
+            <li>Male_AverageNormal</li>
+            <li>Male_NarrowNormal</li>
+            <li>Female_AverageNormal</li>
+            <li>Female_NarrowNormal</li>
+          </headTypes>
+          <bodyTypes>
+            <li>Thin</li>
+            <li>Hulk</li>
+            <li>Fat</li>
+            <li>Male</li>
+            <li>Female</li>
+          </bodyTypes>
+        </alienPartGenerator>
+        <chemicalSettings>
+        </chemicalSettings>
+      </generalSettings>
+      <graphicPaths>
+        <head>Vulcan/Head/</head>
+      </graphicPaths>
+      <styleSettings>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+      <thoughtSettings>
+      </thoughtSettings>
+      <raceRestriction>
+        <traitList>
+          <li>Vulcan</li>
+        </traitList>
+      </raceRestriction>
+      <relationSettings>
+      </relationSettings>
+    </alienRace>
+    <statBases>
+      <MoveSpeed>4.82</MoveSpeed>
+      <Flammability>1.0</Flammability>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
+      <LeatherAmount>25</LeatherAmount>
+    </statBases>
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
+        <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+        <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>180</lifeExpectancy>
+      <leatherDef>Leather_Human</leatherDef>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Vulcan</body>
+      <meatColor>RGBA(0.65,0.62,0.67,1)</meatColor>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>1.2</minAge>
+        </li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">
+          <def>HumanlikePreTeenager</def>
+          <minAge>4</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
+        </li>
+      </lifeStageAges>
+      <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+        <Firefighter>7</Firefighter>
+        <Patient>0</Patient>
+        <Doctor>10</Doctor>
+        <PatientBedRest>0</PatientBedRest>
+        <Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+        <BasicWorker>7</BasicWorker>
+        <Warden>10</Warden>
+        <Handling>7</Handling>
+        <Cooking>7</Cooking>
+        <Hunting>7</Hunting>
+        <Construction>10</Construction>
+        <Growing>7</Growing>
+        <Mining>7</Mining>
+        <PlantCutting>7</PlantCutting>
+        <Smithing>13</Smithing>
+        <Tailoring>7</Tailoring>
+        <Art>10</Art>
+        <Crafting>7</Crafting>
+        <Hauling>3</Hauling>
+        <Cleaning>3</Cleaning>
+        <Research>13</Research>
+      </lifeStageWorkSettings>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>
+          <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li>
+          <!-- End exclude -->
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+          <li>(14,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+          <li>(16,100)</li>
+          <li>(50,100)</li>
+          <li>(70,30)</li>
+          <li>(90,18)</li>
+          <li>(80,10)</li>
+          <li>(120,3)</li>
+          <li>(170,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+      </hediffGiverSets>
+    </race>
+    <recipes>
+      <li>InstallPowerClaw</li>
+      <li>InstallBionicEye</li>
+      <li>InstallBionicArm</li>
+      <li>InstallBionicLeg</li>
+      <li>InstallSimpleProstheticArm</li>
+      <li>InstallSimpleProstheticLeg</li>
+      <li>InstallPegLeg</li>
+      <li>InstallDenture</li>
+      <li>InstallJoywire</li>
+      <li>InstallPainstopper</li>
+      <li>InstallNaturalHeart</li>
+      <li>InstallNaturalLung</li>
+      <li>InstallNaturalKidney</li>
+      <li>InstallNaturalLiver</li>
+      <li>ExciseCarcinoma</li>
+      <li>RemoveBodyPart</li>
+      <li>Euthanize</li>
+    </recipes>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>
