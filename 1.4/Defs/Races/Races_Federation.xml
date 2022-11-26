@@ -50,6 +50,8 @@
             <li>Fat</li>
             <li>Male</li>
             <li>Female</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
           </bodyTypes>
         </alienPartGenerator>
         <chemicalSettings>
@@ -314,6 +316,8 @@
             <li>Fat</li>
             <li>Male</li>
             <li>Female</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
           </bodyTypes>
         </alienPartGenerator>
         <chemicalSettings>
